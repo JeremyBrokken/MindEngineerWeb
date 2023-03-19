@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <title>Home</title>
+    <style>
+        /* navigation bar CSS */
+        /* hover over the navigation bar */
+        .navbar-nav li:hover {
+            background-color: black;
+        }  
+        .navbar-nav li:hover a{
+            color: white;
+        }
+        .navbar-nav li:hover .current-link{
+            color: red;
+        }
+        .navbar-nav li .current-link{
+            color: red;
+        }
+        /* hover over the navigation bar */
+        .navbar-brand {
+            height: 130px;
+        }
+        .navbar-brand img {
+            border: 5px solid black;
+            height: 100%;
+        }
+        .nav-item {
+            border: 5px solid black;
+            padding: 18px;
+        }
+        .navbar-nav {
+            width: 100%;
+        }
+        .navbar-nav li {
+            width: 100%;
+            height:120px;
+        }
+        .navbar-nav li a{
+            color: black;
+        }
+        .navbar-nav .nav-link {
+            font-size: 18px;
+            text-align: center;
+            font-weight: bold;
+        }
+        /* end of navigation bar CSS */
+
+        /* main content CSS */
+        main {
+            margin-top: 150px;
+        }
+
+        p {
+            padding: 10px;
+            border: 2px solid black;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            margin: 0 10px;
+        }
+        /* end of main content CSS */
+
+        /* footer CSS */
+        .footer {
+            background-color: #f8f9fa;
+            border-top: 2px solid black;
+            padding: 20px 0;
+        }
+        .footer img {
+            height: 35px;
+            margin-top: -4px;
+        }
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .footer-links li {
+            margin-right: 20px;
+        }
+        .footer-links li:last-child {
+            margin-right: 0;
+        }
+        .footer-links a {
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 5px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        .footer-links a:hover {
+            background-color: black;
+            color: white;
+        }
+        /* end of footer CSS */
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <!-- .note: responsive collapsing and color scheme classes. =container for the containers container -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="border: 2px solid Black;">
+            <!-- .note: image and navigation width container -->
+            <div class="container-fluid" style="border: 2px solid Black;">
+                <!-- .Logo. -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="../Images/MELogo5.png" alt="Logo">
+                </a>
+                <!-- .Hamburger Menu. -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- .Navigation Links. =navigation width container-->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- navbar-nav =navigation items container-->
+                    <ul class="navbar-nav">
+                        <!-- .note: text outer container -->
+                        <li class="nav-item">
+                            <!-- .note: text/link. -->
+                            <a class="nav-link current-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Mind/index.html">Mind Engineering</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Body/index.html">Body Engineering</a>
+                        </li>
+                    </ul>
+                    <!-- End of navbar-nav -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End of Navigation Bar -->
+
+    <!-- Main Content -->
+    <main>
+        
+    </main>
+    <!-- End of Main Content -->
+
+    <!-- Footer --> 
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <ul class="footer-links">
+                <li><img src="../Images/MELogoShort2.png" alt="Footer Image"> </li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="terms.html">Terms and Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!-- End of Footer -->
+
+    <script src="../bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
