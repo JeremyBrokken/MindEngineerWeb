@@ -43,6 +43,36 @@
             text-align: center;
             margin: 0 10px;
         }
+
+        .footer {
+            background-color: #f8f9fa;
+            border-top: 2px solid black;
+            padding: 20px 0;
+        }
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .footer-links li {
+            margin-right: 20px;
+        }
+        .footer-links li:last-child {
+            margin-right: 0;
+        }
+        .footer-links a {
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 5px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        .footer-links a:hover {
+            background-color: black;
+            color: white;
+        }
     </style>
 </head>
 
@@ -95,6 +125,22 @@
         
     </main>
     <!-- End of Main Content -->
+
+    <!-- Footer --> 
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <ul class="footer-links">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="terms.html">Terms and Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!-- End of Footer -->
 
     <script src="C:/jeremybrokken/Downloads/Bootstrap/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
     <script src="C:/jeremybrokken/Downloads/Bootstrap/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
