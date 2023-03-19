@@ -13,29 +13,34 @@
         .navbar-brand img {
             border: 5px solid black;
             padding: 0px;
-          }
-        .navbar-nav > li > a {
-            border: none;
         }
         .nav-item {
             border: 5px solid black;
             padding: 28px;
-          }
+        }
+        .navbar-nav .nav-link {
+            font-size: 18px;
+            text-align: center;
+            font-weight: bold;
+        }
     </style>
 </head>
+
 <body>
     <!-- Navigation Bar -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- .note: responsive collapsing and color scheme classes. -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container-fluid">
-                <!-- navbar-brand -->
-                <a class="navbar-brand d-inline-block" href="#">
+                <!-- .Logo. -->
+                <a class="navbar-brand" href="index.html">
                     <img src="C:/jeremybrokken/Repositories/MindEngineerWeb/Images/MELogo3.png" alt="Logo" style="max-width:100%">
                 </a>
-                <!-- End of navbar-brand -->
+                <!-- .Hamburger Menu. -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!-- .Navigation Links. -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <!-- navbar-nav -->
                     <ul class="navbar-nav">
